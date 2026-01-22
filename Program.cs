@@ -12,6 +12,6 @@ class DreamJournalCLI
         // Get the main command from the user.
         string command = args[0];
 
-        CommandHandling.CommandInit(command);
+        CommandHandling.CommandInit(command, args);
     }
 }
