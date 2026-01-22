@@ -1,11 +1,11 @@
 class CommandHandling()
 {
-    public static void CommandInit()
+    public static void CommandInit(string command)
     {
-
+        Console.WriteLine(command);
     }
 
-    public static void CommandActions()
+    private static void CommandActions()
     {
         
     }
