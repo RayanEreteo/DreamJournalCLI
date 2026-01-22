@@ -1,5 +1,3 @@
-using System.Diagnostics;
-
 class CommandHandling
 {
     public static void CommandInit(string command)
