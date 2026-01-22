@@ -1,26 +1,19 @@
 using System.Diagnostics;
 
-class CommandHandling()
+class CommandHandling
 {
     public static void CommandInit(string command)
     {
         switch (command)
         {
             case "donate":
-                Process.Start(new ProcessStartInfo
-                {
-                    FileName = "https://ko-fi.com/rayanereteo",
-                    UseShellExecute = true,
-                });
+                // Open browser to ko-fi link for donation.
+                CommandActions.Donate();
                 return;
             default:
+                // Exit with a message if invalid command.
                 Console.WriteLine("Invalid Command");
                 return;
         }
-    }
-
-    private static void CommandActions()
-    {
-        
     }
 }
