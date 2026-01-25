@@ -1,1 +1,1 @@
-Cancelled for a mobile version : GITHUB LINK
+Cancelled for a mobile version : [Observer - The Dream Journal](https://github.com/RayanEreteo/Observer---The-Dream-Journal)
