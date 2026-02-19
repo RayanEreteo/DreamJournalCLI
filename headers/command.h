@@ -1,0 +1,1 @@
+void CommandInit(char *command, char *argv[]);
